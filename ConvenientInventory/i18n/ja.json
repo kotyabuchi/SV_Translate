@@ -1,0 +1,60 @@
+﻿{
+  // UI
+  "QuickStackButton.hoverText": "近接した箱にまとめて入れる", // 文字数: 17
+
+  // ModConfigMenu
+  "ModConfigMenu.Label.QuickStackToNearbyChests": "近接した箱にまとめて入れる",
+
+  "ModConfigMenu.IsEnableQuickStack.Name": "まとめ入れ機能を有効化する?",
+  "ModConfigMenu.IsEnableQuickStack.Desc": "有効にすると、インベントリメニューに「近接した箱にまとめて入れる」ボタンが追加されます。このボタンを押すと、インベントリ内のアイテムが、それと同じアイテムを持つ近接した箱に自動的に格納されます。",
+
+  "ModConfigMenu.QuickStackRange.Name": "範囲",
+  "ModConfigMenu.QuickStackRange.Desc": "プレイヤーから何ブロック以内の箱を検索するかを設定します。",
+
+  "ModConfigMenu.IsEnableQuickStackHotkey.Name": "ホットキーを有効化する?",
+  "ModConfigMenu.IsEnableQuickStackHotkey.Desc": "有効にすると、以下で設定したホットキーを使ってインベントリメニューの外からもアイテムをまとめて入れられるようになります。",
+
+  "ModConfigMenu.QuickStackKeyboardHotkey.Name": "キーボードのホットキー",
+  "ModConfigMenu.QuickStackKeyboardHotkey.Desc": "このキーを押してアイテムをまとめて入れます。",
+
+  "ModConfigMenu.QuickStackControllerHotkey.Name": "コントローラのホットキー",
+  "ModConfigMenu.QuickStackControllerHotkey.Desc": "このボタンを押してアイテムをまとめて入れます。",
+
+  "ModConfigMenu.IsQuickStackIntoBuildingsWithInventories.Name": "建物の中の箱にも入れる?",
+  "ModConfigMenu.IsQuickStackIntoBuildingsWithInventories.Desc": "有効にすると、粉挽き機やジュニモ小屋など、建物の中にある箱にもアイテムが入れられるようになります。",
+
+  "ModConfigMenu.IsQuickStackOverflowItems.Name": "余ったアイテムも入れる?",
+  "ModConfigMenu.IsQuickStackOverflowItems.Desc": "有効にすると、アイテムが1スタック分より多い場合でも、できる限り箱に収納されるようになります。",
+
+  "ModConfigMenu.IsQuickStackIgnoreItemQuality.Name": "アイテムの品質を無視する?",
+  "ModConfigMenu.IsQuickStackIgnoreItemQuality.Desc": "有効にすると、品質に関係なく同じアイテムであれば箱に収納されるようになります。",
+
+  "ModConfigMenu.IsQuickStackTooltipDrawNearbyChests.Name": "近接した箱をツールチップに表示する?",
+  "ModConfigMenu.IsQuickStackTooltipDrawNearbyChests.Desc": "有効にすると、「まとめて入れる」ボタンにカーソルを合わせると、近接した箱がリストで表示されます。",
+
+  "ModConfigMenu.Label.FavoriteItems": "お気に入りアイテム",
+
+  "ModConfigMenu.IsEnableFavoriteItems.Name": "お気に入りアイテムを有効化する?",
+  "ModConfigMenu.IsEnableFavoriteItems.Desc": "有効にすると、インベントリのアイテムをお気に入りに設定できるようになります。お気に入りのアイテムは、箱にまとめ入れ時に無視され、ゴミ箱に捨てたり落とすこともできなくなります。",
+
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Name": "ハイライトのスタイル",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc": "インベントリのお気に入りアイテムを強調表示するテクスチャのスタイルを選択してください。",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-0": "金色の点線",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-1": "きれいな金色の点線",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-2": "厚い金色の枠",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-3": "テクスチャ入りの金色の枠",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-4": "金色の枠線",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-5": "濃い色の点線",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-6": "濃い色の太い枠",
+
+  "ModConfigMenu.FavoriteItemsKeyboardHotkey.Name": "キーボードのホットキー",
+  "ModConfigMenu.FavoriteItemsKeyboardHotkey.Desc": "このキーを押しながらアイテムを選択するとお気に入りに設定できます。",
+
+  "ModConfigMenu.FavoriteItemsControllerHotkey.Name": "コントローラのホットキー",
+  "ModConfigMenu.FavoriteItemsControllerHotkey.Desc": "このボタンを押しながらアイテムを選択するとお気に入りに設定できます。",
+
+  "ModConfigMenu.Label.Miscellaneous": "その他の設定",
+
+  "ModConfigMenu.IsEnableInventoryPageSideWarp.Name": "インベントリカーソルの端ワープを有効化する?",
+  "ModConfigMenu.IsEnableInventoryPageSideWarp.Desc": "有効にすると、コントローラーのカーソルをインベントリメニューの端まで移動させると、反対側に瞬時にワープするようになります。"
+}

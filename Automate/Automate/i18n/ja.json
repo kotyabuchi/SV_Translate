@@ -1,0 +1,55 @@
+﻿{
+    /*********
+    ** 一般的なMod設定メニューUI
+    *********/
+    // メインオプション
+    "config.title.main-options": "メインオプション",
+    "config.enabled.name": "有効",
+    "config.enabled.desc": "Automate機能を有効にするかどうか。無効にすると、機械は自動化されず、オーバーレイも表示されません。",
+    "config.automation-interval.name": "自動化間隔",
+    "config.automation-interval.desc": "各自動化プロセス間のTick数（1秒ごとに60、2秒ごとに120など）。",
+    "config.min-minutes-for-fairy-dust.name": "妖精の粉の最小分数",
+    "config.min-minutes-for-fairy-dust.desc": "妖精の粉を適用するための最小機械処理時間（分単位）。たとえば、30分に設定すると妖精の粉を使用しなくても20分で完了する場合には、妖精の粉は使用されません。",
+    "config.toggle-overlay-key.name": "オーバーレイ切り替えキー",
+    "config.toggle-overlay-key.desc": "自動化オーバーレイを切り替えるキー。",
+    "config.warn-for-missing-bridge-mod.name": "Bridge Modが不足している場合の警告",
+    "config.warn-for-missing-bridge-mod.desc": "インストールされていない互換性パッチを必要とするカスタムマシンModをインストールした場合、起動時に警告をログに記録するかどうか。",
+
+    // コネクター
+    "config.title.connectors": "有効なコネクター",
+    "config.connector.desc": "{{itemName}}が機械とチェストを連結するかどうか。",
+    "config.custom-connectors.name": "カスタムコネクター",
+    "config.custom-connectors.desc": "隣接する機械を連結するアイテムの正確な英語名。複数のアイテムをカンマでリストアップできます。", // 注意：プレイ言語が他の言語でも、コネクター名は英語である必要があります
+
+    // ジュニモ小屋オプション
+    "config.title.junimo-huts": "ジュニモ小屋の動作",
+    "config.junimo-hut-gems.name": "宝石",
+    "config.junimo-hut-gems.desc": "ジュニモ小屋が宝石アイテムをどのように扱うか。'自動検出'はそれらを無視します。",
+    "config.junimo-hut-fertilizer.name": "肥料",
+    "config.junimo-hut-fertilizer.desc": "ジュニモ小屋が肥料アイテムをどのように扱うか。'自動検出'はBetter Junimosがインストールされている場合はそれらを無視し、それ以外の場合は小屋からチェストに移動します。",
+    "config.junimo-hut-seeds.name": "種",
+    "config.junimo-hut-seeds.desc": "ジュニモ小屋が種アイテムをどのように扱うか。'自動検出'はBetter Junimosがインストールされている場合はそれらを無視し、それ以外の場合は小屋からチェストに移動します。",
+
+    // ジュニモ小屋のドロップダウン値
+    "config.junimo-huts.auto-detect": "自動検出",
+    "config.junimo-huts.ignore": "無視する",
+    "config.junimo-huts.move-into-chests": "ジュニモ小屋からチェストに移動",
+    "config.junimo-huts.move-into-huts": "チェストからジュニモ小屋に移動",
+
+    // 個々の機械の設定
+    "config.title.machine-settings": "{{machineName}}設定",
+    "config.machine-settings-enabled.Name": "有効",
+    "config.machine-settings-enabled.desc": "{{machineName}}の自動化を有効にするかどうか。",
+    "config.machine-settings-priority.name": "優先順位",
+    "config.machine-settings-priority.desc": "{{machineName}}を他の機械に対して処理する優先順位の順序。デフォルト優先順位は0で、より高い機械が先に処理されます。",
+
+    // 機械名
+    "config.machines.bush": "ブッシュ",
+    "config.machines.fruit-tree": "木（果樹）",
+    "config.machines.trash-can": "ごみ箱",
+    "config.machines.wild-tree": "木（野生の木）",
+
+    // 個々の機械の特別な設定
+    "config.machines.wild-tree.collect-moss.name": "コケを集める",
+    "config.machines.wild-tree.collect-moss.desc": "木にコケを集めるかどうか。たとえば、木のコケを集めないでおくと近くのキノコの原木から採れるのキノコの品質が向上します。"
+}
